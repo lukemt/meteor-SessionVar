@@ -1,7 +1,7 @@
 Package.describe({
-  summary: "SessionVar: like ReactiveVar, but stored in Session",
+  summary: "SessionVar: Like ReactiveVar, but stored in Session",
   version: "1.0.0",
-  git: " \* Fill me in! *\ "
+  git: "https://github.com/lukemt/meteor-SessionVar.git"
 });
 
 Package.onUse(function(api) {
