@@ -1,9 +1,12 @@
 # SessionVar
+Stores session-variables with the syntax of ReactiveVar
+
 
 Usage:
 
-    var myReactiveVar = new SessionVar('myReactiveVar', 'initial value');
-    myReactiveVar.get(); // => 'initial value'
-    myReactiveVar.set('bagger vance');
-    myReactiveVar.get(); // => 'bagger vance'
-    
+    var mySessionVar = new SessionVar('SessionVarKey', 'initial value');
+    mySessionVar.get(); // => 'initial value'
+    mySessionVar.set('bagger vance');
+    mySessionVar.get(); // => 'bagger vance'
+    Session.get('SessionVarKey') // => 'bagger vance'
+     

@@ -1,6 +1,6 @@
 Package.describe({
   summary: "SessionVar: Like ReactiveVar, but stored in Session",
-  version: "1.0.2",
+  version: "1.1.0",
   git: "https://github.com/lukemt/meteor-SessionVar.git"
 });
 
@@ -9,5 +9,5 @@ Package.onUse(function(api) {
   api.export('SessionVar', 'client');
 
   api.use('session');
-  api.addFiles(['core:session-var.js'], 'client');
+  api.addFiles(['session-var.js'], 'client');
 });
