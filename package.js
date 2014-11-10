@@ -1,7 +1,7 @@
 Package.describe({
-  name: 'lukemt:session-var',
+  name: 'lume:session-var',
   summary: 'SessionVar: Like ReactiveVar, but stored in Session',
-  version: '1.1.2',
+  version: '1.1.3',
   git: 'https://github.com/lukemt/meteor-SessionVar.git'
 });
 

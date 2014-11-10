@@ -1,5 +1,5 @@
 # SessionVar
-Stores session-variables with the syntax of ReactiveVar
+Tiny Package that stores session-variables with the syntax of ReactiveVar
 
 
 Usage:
